@@ -5,8 +5,8 @@
 }
 
 img {
-    margin: 0 6% 0 6%;
-
+    margin: auto;
+    display: block;
 }
 
 body {
@@ -161,10 +161,23 @@ footer p {
     margin: 0;
 }
 
-.resposta {
-    display: none;
+.topico span {
+    padding: 5px;
+
 }
 
-.topico:hover {
+.topico p {
+    display: none;
+    background-color: #00c45585;
+    border-radius: 10px;
+    text-indent: 0;
+    padding: 10px;
+}
+
+#duvidas li {
+    margin: 10px;
+}
+
+.topico:hover > p {
     display: block;
 }
