@@ -5,8 +5,10 @@
 }
 
 img {
+    width: 100%;
     margin: auto;
     display: block;
+    max-width: 850px;
 }
 
 body {
@@ -52,6 +54,7 @@ nav a:hover {
 }
 
 main {
+    min-width: 320px;
     max-width: 900px;
     background-color: white;
     box-shadow: 0 0 4px 1px rgba(0, 0, 0, 0.300);
