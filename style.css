@@ -4,13 +4,6 @@
     src: url(fontes/idroid.otf);
 }
 
-img {
-    width: 100%;
-    margin: auto;
-    display: block;
-    max-width: 850px;
-}
-
 body {
     background-color: #E7E5C1;
     font-family: Arial, Helvetica, sans-serif;
@@ -82,6 +75,16 @@ main p {
     text-align: justify;
 }
 
+main img {
+    width: 100%;
+    margin: auto;
+    display: block;
+}
+
+#bugdroid {
+    max-width: max-content;
+}
+
 main strong{
     color: #009C43;
 }
@@ -136,11 +139,6 @@ aside ul {
     background-color: #00451ec1;
     border-radius: 20px 20px 0 0;
     margin: 0 -10px;
-}
-
-#bugdroid {
-    max-width: max-content;
-    margin: 0 30% 0 30%;
 }
 
 #pilearn {
